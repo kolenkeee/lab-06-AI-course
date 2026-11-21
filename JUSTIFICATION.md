@@ -1,6 +1,6 @@
 # JUSTIFICATION — the design of the harness, and why
 
-All numbers below come from my own run of `lab06_harness_says_no.ipynb` on a Colab T4 GPU
+All numbers below come from my own run of `lab06_Kaden.ipynb` (the template `lab06_harness_says_no.ipynb`, renamed) on a Colab T4 GPU
 (Qwen2.5-3B-Instruct, greedy decoding, 40 pairs per group, seed 2026). All legal texts were read on the
 official publication sites on 21 November 2026: adilet.zan.kz for Kazakhstan, the OECD legal instruments
 database, and EUR-Lex for the EU.
@@ -252,4 +252,11 @@ I used **Claude** (Anthropic), an AI assistant in the Claude desktop app, for mo
   not open the UNESCO text, so that source is not cited.
 - It wrote `REPORT.md` and this `JUSTIFICATION.md` from my run's numbers, and committed the files to my
   fork of the repository.
+- Why the fork has few commits: the whole run (about two hours) happened in one Colab session, and Colab
+  has no git, so the results were committed at the end: first the two reports, then the executed notebook,
+  `decisions.jsonl` and `control_register.json`, then the rename of the notebook. No commit was split or
+  back-dated to look like more steps.
+- To get `REPORT.md` and `JUSTIFICATION.md` into the Colab session for the last check cell, the assistant
+  added one temporary cell that downloaded them from this fork, ran it, and deleted it; this is the gap in
+  the execution counts. No result cell was changed by it.
 - I asked for this help, signed in to Colab myself, and I am responsible for what is submitted.

@@ -1,6 +1,6 @@
 # REPORT — what the measurement showed, who it affects, and whose responsibility it is
 
-All numbers are from my own run of `lab06_harness_says_no.ipynb` on a Colab T4 GPU
+All numbers are from my own run of `lab06_Kaden.ipynb` (the template `lab06_harness_says_no.ipynb`, renamed) on a Colab T4 GPU
 (Qwen2.5-3B-Instruct, greedy decoding, `N_PAIRS = 40`, `SEED = 2026`): 200 pairs, 400 profiles,
 400 model calls for the bare agent and 400 for the harness run.
 
